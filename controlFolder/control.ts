@@ -10,7 +10,8 @@ export const underLogo = "WEB AGENCY"; //Restaurant or Web agency or...
 export const companyDomain = "https://chachaweb.se";
 export const googleVerification = "";
 export const googleAnalyticsId = "";
-export const companyLogo = "";
+export const companyLogo =
+  "https://github.com/levanydze/SUP/blob/main/VkLeo/assets/Logo..png?raw=true";
 
 // menu list order
 export const sectionOrder = [

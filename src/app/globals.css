@@ -1,11 +1,8 @@
+@import "./css/reset";
 @import "./css/elements";
 @import "./css/animations";
 @import "./css/buttons";
 @import "./css/containers";
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 * {
   margin: 0;
@@ -34,7 +31,7 @@ body {
   --yellow: #ffbb00;
 
   --color1: #e35069; /*pripary bright color */
-  --color2: #13141e; /* secondary dark color*/
+  --color2: #1e1f2b; /* secondary dark color*/
   --color3: #329dcf;
 
   /* used for components background*/

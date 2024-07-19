@@ -1,0 +1,32 @@
+.sections {
+  display: flex;
+  gap: 50px;
+}
+
+.whatIDoWrapper h3 {
+  text-align: center;
+  color: var(--gray6);
+}
+.whatIDoWrapper img {
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.whatIDoWrapper h4 {
+  color: var(--gray5);
+  text-align: center;
+  margin-top: 50px;
+}
+.whatIDoWrapper p {
+  text-align: center;
+  max-width: 500px;
+  margin: 20px auto;
+  font-weight: 400;
+  color: var(--gray8);
+}
+
+@media (max-width: 900px) {
+  .sections {
+    flex-direction: column;
+  }
+}

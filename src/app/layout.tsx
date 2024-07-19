@@ -1,15 +1,8 @@
 import type { Metadata } from "next";
-import {
-  Inter,
-  Roboto_Flex,
-  Gabriela,
-  Montserrat,
-  Great_Vibes,
-} from "next/font/google";
+import { Nunito_Sans, Roboto_Flex, Gabriela } from "next/font/google";
 import "./globals.css";
-import Header from "../../components/header/header1/Header";
-import Footer from "../../components/footer/footer3/Footer";
-import LowerFoot from "../../components/footer/lowerFooter2/LowerFoot";
+import Header from "../../components/header/header4/Header";
+import LowerFoot from "../../components/footer/lowerFooter3/LowerFoot";
 import { googleAnalyticsId } from "../../controlFolder/control";
 import { Analytics } from "@vercel/analytics/react";
 
@@ -18,25 +11,17 @@ const roboto = Roboto_Flex({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700"],
 });
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font1",
-  weight: ["200", "300", "400", "500", "600", "700"],
-});
+
 const gabriela = Gabriela({
   subsets: ["latin"],
   weight: ["400"],
   variable: "--font4",
 });
-const montseraat = Montserrat({
+
+const nunito = Nunito_Sans({
   subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
-  variable: "--font2",
-});
-const great = Great_Vibes({
-  weight: ["400"],
-  subsets: ["latin"],
-  variable: "--font3",
+  weight: ["200", "300", "400", "500", "600", "700", "800", "900"],
+  variable: "--font1",
 });
 
 // SEO Metadata and title tags
@@ -81,12 +66,11 @@ export default function LocaleLayout({
         </Script>
       </head>
       <body
-        className={`${montseraat.variable} ${roboto.className} ${inter.variable} ${great.variable} ${gabriela.variable}   `}
+        className={` ${roboto.className} ${nunito.variable}  ${gabriela.variable}   `}
       >
         <Header />
         {children}
         <Analytics />
-        <Footer />
         <LowerFoot />
       </body>
     </html>

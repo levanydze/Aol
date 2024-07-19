@@ -1,0 +1,16 @@
+.mainWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.mainWrapper h2 {
+  margin: 15px 0 20px 0;
+  max-width: 400px;
+  line-height: 30px;
+}
+
+.mainWrapper h1 {
+  font-weight: 900;
+  color: var(--gray6);
+}

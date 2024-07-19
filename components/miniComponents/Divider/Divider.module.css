@@ -1,0 +1,6 @@
+.thinLine {
+  background-color: var(--gray3);
+  max-width: 400px;
+  height: 1px;
+  margin: 0 auto;
+}

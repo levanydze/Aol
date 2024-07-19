@@ -1,67 +1,50 @@
-.container1 section {
-  /* component's wrapper Light color with padding */
-  max-width: 2000px;
+.absolute {
+  position: absolute;
+  width: 100%;
+}
+.section {
+  padding: 80px 150px;
+  width: 100%;
+}
+
+.section-fill {
+  background-color: var(--overlay);
+}
+
+.container {
+  max-width: 1300px;
   margin: 0 auto;
-  padding: 30px 100px;
-  color: var(--textDark);
 }
 
-/* _______ */
-/* _______ */
-/* _______ */
-
-.container2 {
-  background-color: var(--color2);
-  /* component's wrapper Dark color with padding */
+@media (max-width: 1300px) {
+  .section {
+    padding: 70px 100px;
+  }
 }
-.container2 section {
-  max-width: 2000px;
-  margin: 0 auto;
-  padding: 30px 100px;
-  color: var(--textLight);
+@media (max-width: 1000px) {
+  .section {
+    padding: 60px 80px;
+  }
 }
-
-/* _______ */
-/* _______ */
-/* _______ */
-
-.container3 {
-  /* background color light without padding */
+@media (max-width: 800px) {
+  .section {
+    padding: 50px 70px;
+  }
 }
-.container3 section {
-  max-width: 2000px;
-  margin: 0 auto;
-  color: var(--textDark);
-}
-
-/* _______ */
-/* _______ */
-/* _______ */
-
-.container4 {
-  background-color: var(--color2);
-  /* background color DARK without padding */
-}
-.container4 section {
-  max-width: 2000px;
-  margin: 0 auto;
-  color: var(--textLight);
-}
-
-/* _______ */
-/* _______ */
-/* _______ */
-
-@media (max-width: 1500px) {
-  .container1 section,
-  .container2 section {
-    padding: 0 50px;
+@media (max-width: 600px) {
+  .section {
+    padding: 50px 50px;
   }
 }
 
-@media (max-width: 700px) {
-  .container1 section,
-  .container2 section {
-    padding: 0 20px;
+@media (max-width: 500px) {
+  .section {
+    padding: 30px 30px;
   }
+}
+
+/* header css */
+.header {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
