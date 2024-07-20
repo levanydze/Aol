@@ -6,6 +6,7 @@ import VakoLevaniProtfolioHero from "../../components/Hero/VakoLevaniPortfolioHe
 import VakoLevaniWhatIDo from "../../components/sectionComponents/VakoLevaniWhatIDo/VakoLevaniWhatIDo";
 import VakoSayHi from "../../components/sectionComponents/VakoSayHi/VakoSayHi";
 import Divider from "../../components/miniComponents/Divider/Divider";
+import ProjectsMap from "@/components/vakoLeoProjects/ProjectsMap";
 export const metadata = {
   title: `${mainTitle}`,
   description: `${companyDescription}`,
@@ -20,6 +21,8 @@ export default function Home() {
         h2="I'm a UX/UI designer, Webflow developer, and a best-selling instructor. If you're looking for a capable designer, get in touch."
         buttonValue="See My Work Below"
       />
+      <ProjectsMap />
+
       <VakoLevaniWhatIDo />
       <Divider />
 
