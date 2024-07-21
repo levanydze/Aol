@@ -36,8 +36,8 @@ export default async function ItemsServicesArray({
           <div className="container">
             <div className={styles.mainWrap}>
               <div className={styles.textWrap}>
-                <p className="title3">{project.textENG}</p>
-                <h3 className="title8">{project.titleENG}</h3>
+                <p className="title3">{project.text}</p>
+                <h3 className="title8">{project.title}</h3>
                 <Link className="button" href={`/services/${project.id}`}>
                   See This Project
                 </Link>
@@ -45,7 +45,7 @@ export default async function ItemsServicesArray({
               <div>
                 <Link href={`/services/${project.id}`}>
                   <img
-                    src={project.mainImage}
+                    src={project.image}
                     width={100}
                     height={100}
                     alt={project.title}
