@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <main className="fadeOut">
       <VakoLevaniProtfolioHero
-        h1="Hi. I'm Leo"
+        h1="Hi. I'm Leo."
         h2="I'm a UX/UI designer, Webflow developer, and a best-selling instructor. If you're looking for a capable designer, get in touch."
         buttonValue="See My Work Below"
       />

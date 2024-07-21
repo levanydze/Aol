@@ -29,10 +29,12 @@
 @media (max-width: 770px) {
   .sectionWrapper {
     flex-direction: column;
+    justify-content: center;
   }
   .sectionWrapper img {
     margin: 0 auto;
     height: 500px;
+    margin-top: 70px;
   }
   .mainWrapper h2 {
     text-align: center;
