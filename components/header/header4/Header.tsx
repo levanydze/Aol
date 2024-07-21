@@ -1,13 +1,16 @@
 import Image from "next/image";
 import styles from "./Header.module.css";
 import { companyLogo } from "../../../controlFolder/control";
+import Link from "next/link";
 
 export default function Header3() {
   return (
     <header className="section header ">
       <div className={`container`}>
         <div className={` ${styles.headWrapper}`}>
-          <Image width={200} height={50} src={companyLogo} alt="" />
+          <Link href="/">
+            <Image width={200} height={50} src={companyLogo} alt="" />
+          </Link>
           <div className={styles.navButtonWrap}>
             <nav>
               <ul>

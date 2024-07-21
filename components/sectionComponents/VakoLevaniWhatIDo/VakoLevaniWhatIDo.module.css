@@ -2,11 +2,21 @@
   display: flex;
   gap: 50px;
 }
-
+.h3 {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
 .whatIDoWrapper h3 {
   text-align: center;
-  color: var(--gray6);
 }
+.whatI {
+  color: var(--gray5);
+}
+.do {
+  color: var(--gray9);
+}
+
 .whatIDoWrapper img {
   margin: 0 auto;
   margin-top: 70px;

@@ -5,10 +5,18 @@
   width: 100%;
   align-items: center;
 }
-.sayHiWrapper span {
-  color: var(--gray5);
-}
 .sayHiWrapper p {
   margin: 50px 0 80px 0;
   color: var(--gray5);
+}
+
+.sayHiLeo {
+  display: flex;
+}
+.sayHi {
+  color: var(--gray5);
+}
+.leo {
+  padding-left: 10px;
+  color: var(--gray9);
 }

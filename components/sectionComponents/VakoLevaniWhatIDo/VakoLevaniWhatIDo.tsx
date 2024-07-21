@@ -30,7 +30,10 @@ export default function VakoLevaniWhatIDo() {
     <section className="section header">
       <div className="container">
         <div className={styles.whatIDoWrapper}>
-          <h3 className="title9">What I do</h3>
+          <div className={styles.h3}>
+            <h3 className={`title9 ${styles.whatI}`}> What I</h3>
+            <h3 className={`title9 ${styles.do}`}> do.</h3>
+          </div>
           <div className={styles.sections}>
             {sections.map((section, index) => (
               <div key={index}>

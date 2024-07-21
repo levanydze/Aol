@@ -12,6 +12,8 @@ export const metadata = {
   description: `${companyDescription}`,
 };
 
+import ItemsServicesArray from "./services/ItemsServicesArray/ItemsServicesArray";
+
 export default function Home() {
   const { aboutPage } = imagesJson;
   return (
@@ -21,7 +23,12 @@ export default function Home() {
         h2="I'm a UX/UI designer, Webflow developer, and a best-selling instructor. If you're looking for a capable designer, get in touch."
         buttonValue="See My Work Below"
       />
-      <ProjectsMap />
+      {/* <ProjectsMap /> */}
+      <ItemsServicesArray
+        title="Our Services"
+        span="Services You Can Order"
+        arrayNumber={99}
+      />
 
       <VakoLevaniWhatIDo />
       <Divider />

@@ -9,7 +9,10 @@ export default function VakoLevaniWhatIDo() {
     <section className="section">
       <div className="container">
         <div className={styles.sayHiWrapper}>
-          <span className="title9">Say hi to Leo.</span>
+          <div className={styles.sayHiLeo}>
+            <span className={`title9 font1 ${styles.sayHi}`}>Say hi to </span>
+            <span className={`title9 ${styles.leo}`}>Leo.</span>
+          </div>
           <p className="title3">
             If you need a designer for your project send me an email.
           </p>
