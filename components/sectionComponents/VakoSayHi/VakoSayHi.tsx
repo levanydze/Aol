@@ -1,6 +1,7 @@
 import styles from "./VakoSayHi.module.css";
 import assetsJson from "../../../json/assets.json";
 import Link from "next/link";
+import ContactForm from "../../../components/contactForms/CotactForm3/ContactForm";
 
 export default function VakoLevaniWhatIDo() {
   const { chair, postbox, phone } = assetsJson;
@@ -18,6 +19,7 @@ export default function VakoLevaniWhatIDo() {
           </p>
         </div>
       </div>
+      <ContactForm />
     </section>
   );
 }

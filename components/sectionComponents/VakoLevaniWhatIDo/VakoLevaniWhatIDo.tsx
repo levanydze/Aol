@@ -38,8 +38,8 @@ export default function VakoLevaniWhatIDo() {
             {sections.map((section, index) => (
               <div key={index}>
                 <img src={section.image} width={100} height={100} alt="" />
-                <h4 className="title4">{section.subtitle}</h4>
-                <p className="title3">{section.description}</p>
+                <h4 className="title3">{section.subtitle}</h4>
+                <p className="title2">{section.description}</p>
               </div>
             ))}
           </div>

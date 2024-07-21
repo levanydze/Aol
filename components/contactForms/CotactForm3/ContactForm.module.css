@@ -1,19 +1,12 @@
 .contactWrapper {
   display: flex;
-  padding: 100px 50px;
+  padding: 30px 50px;
   justify-content: space-evenly;
   gap: 2%;
 }
-.leftSide {
-  width: 45%;
-  color: var(--textLight);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  padding-bottom: 70px;
-}
+
 .rightSide {
-  width: 45%;
+  width: 100%;
 }
 .form input,
 .form textarea {
@@ -112,7 +105,7 @@
     width: 100%;
   }
 }
-@media (max-width: 650px) {
+@media (max-width: 720px) {
   .form div {
     flex-direction: column;
     gap: 5px;
