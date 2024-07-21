@@ -4,7 +4,7 @@ import { ProjectProps } from "./ItemsServicesArray/ItemsServicesArray";
 export async function fetchData(): Promise<ProjectProps[]> {
   try {
     const response = await fetch(
-      "https://raw.githubusercontent.com/DonaB-hub/MyWebSite/main/Services%20%26%20Gallery%20data/Services.json",
+      "https://raw.githubusercontent.com/levanydze/SUP/main/VkLeo/LeoData.json",
       { cache: "no-store" }
     );
     const data = await response.json();
@@ -18,7 +18,7 @@ export async function fetchData(): Promise<ProjectProps[]> {
 export async function findDataById(id: string) {
   try {
     const response = await fetch(
-      "https://raw.githubusercontent.com/DonaB-hub/MyWebSite/main/Services%20%26%20Gallery%20data/Services.json",
+      "https://raw.githubusercontent.com/levanydze/SUP/main/VkLeo/LeoData.json",
       { cache: "no-store" }
     );
     const data = await response.json();

@@ -16,9 +16,6 @@ export default function VakoLevaniWhatIDo() {
           <p className="title3">
             If you need a designer for your project send me an email.
           </p>
-          <Link className="button" href="./">
-            Get In Touch
-          </Link>
         </div>
       </div>
     </section>
