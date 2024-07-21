@@ -1,7 +1,18 @@
+.sectionWrapper {
+  display: flex;
+  height: 100vh;
+  justify-content: space-between;
+}
+.sectionWrapper img {
+  height: 80vh;
+  width: auto;
+  object-fit: contain;
+  transform: scaleX(-1);
+}
 .mainWrapper {
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
+  justify-content: center;
 }
 
 .mainWrapper h2 {
@@ -16,6 +27,13 @@
 }
 
 @media (max-width: 770px) {
+  .sectionWrapper {
+    flex-direction: column;
+  }
+  .sectionWrapper img {
+    margin: 0 auto;
+    height: 500px;
+  }
   .mainWrapper h2 {
     text-align: center;
     margin: 0 auto;

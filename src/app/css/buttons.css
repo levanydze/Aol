@@ -2,13 +2,13 @@
   border: 2px solid var(--gray5);
   background-color: var(--white);
   width: max-content;
-  border-radius: 12px;
+  border-radius: 20px;
   display: flex;
   align-items: center;
   gap: 5px;
   cursor: pointer;
   justify-content: center;
-  padding: 10px 15px;
+  padding: 10px 30px;
   transition: all 0.1s;
   font-size: 14px;
   font-weight: 500;

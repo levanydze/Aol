@@ -6,13 +6,14 @@ import VakoLevaniProtfolioHero from "../../components/Hero/VakoLevaniPortfolioHe
 import VakoLevaniWhatIDo from "../../components/sectionComponents/VakoLevaniWhatIDo/VakoLevaniWhatIDo";
 import VakoSayHi from "../../components/sectionComponents/VakoSayHi/VakoSayHi";
 import Divider from "../../components/miniComponents/Divider/Divider";
-import ProjectsMap from "@/components/vakoLeoProjects/ProjectsMap";
+import ProjectsMap from "../../components/vakoLeoProjects/ProjectsMap";
 export const metadata = {
   title: `${mainTitle}`,
   description: `${companyDescription}`,
 };
 
 import ItemsServicesArray from "./services/ItemsServicesArray/ItemsServicesArray";
+import ContactForm from "../../components/contactForms/CotactForm3/ContactForm";
 
 export default function Home() {
   const { aboutPage } = imagesJson;
@@ -34,6 +35,7 @@ export default function Home() {
       <Divider />
 
       <VakoSayHi />
+      <ContactForm />
       <Divider />
     </main>
   );

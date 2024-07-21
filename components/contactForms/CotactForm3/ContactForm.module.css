@@ -17,12 +17,12 @@
 }
 .form input,
 .form textarea {
-  background-color: var(--color2);
-  border-bottom: 1px solid var(--textMedium);
+  /* background-color: var(--color2); */
+  /* border-bottom: 1px solid var(--textMedium); */
   width: 100%;
 }
 .form p {
-  color: var(--textLight);
+  color: var(--gray5);
   font-size: 17px;
 }
 
@@ -65,7 +65,9 @@
   height: 50px;
   letter-spacing: 1px;
   width: 100%;
-  color: var(--textLight);
+  color: var(--gray9);
+  border: 1px solid var(--gray2);
+  padding-left: 10px;
 }
 
 .input:focus {

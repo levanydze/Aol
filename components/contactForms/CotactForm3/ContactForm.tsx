@@ -49,7 +49,6 @@ const ContactForm: React.FC = () => {
             >
               <div className={styles.smallInputs}>
                 <div className={styles.inputDiv}>
-                  <p>Name</p>
                   <input
                     className={`${styles.input} ${styles.miniInput} ${
                       nameError ? styles.inputRed : ""
@@ -63,7 +62,6 @@ const ContactForm: React.FC = () => {
                 </div>
 
                 <div className={styles.inputDiv}>
-                  <p>Email</p>
                   <input
                     className={`${styles.input} ${styles.miniInput}
              ${emailError ? `${styles.inputRed}  ${styles.emailInput}` : ""}
@@ -77,7 +75,6 @@ const ContactForm: React.FC = () => {
                 </div>
               </div>
               <div className={styles.messageDiv}>
-                <p>Message</p>
                 <textarea
                   className={`${styles.textArea} ${styles.input}
            ${messageError ? styles.inputRed : ""}
@@ -93,8 +90,8 @@ const ContactForm: React.FC = () => {
                 type={
                   nameValue && messageValue && emailValue ? "submit" : "button"
                 }
-                className={`${styles.buttonSend} ${
-                  !buttonDisable ? "button3" : "button3Disabled"
+                className={` button ${styles.buttonSend} ${
+                  !buttonDisable ? "button" : "buttonDisabled"
                 }  
             
           `}
