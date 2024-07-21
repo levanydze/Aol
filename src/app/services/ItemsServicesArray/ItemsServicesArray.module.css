@@ -7,18 +7,18 @@
 }
 
 .textWrap {
-  width: 500px;
+  max-width: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .textWrap p {
   color: var(--gray5);
-  width: 400px;
+  max-width: 400px;
 }
 .textWrap h3 {
   color: var(--gray6);
-  width: 400px;
+  max-width: 400px;
 }
 
 .textWrap a {
@@ -31,6 +31,9 @@
     align-items: center;
     text-align: center;
   }
+  .mainWrap img {
+    margin: 0 auto;
+  }
   .textWrap a {
     margin: 50px auto;
   }
@@ -38,4 +41,7 @@
     margin: 0 auto;
     align-items: center;
   }
+}
+
+@media (max-width: 650px) {
 }
