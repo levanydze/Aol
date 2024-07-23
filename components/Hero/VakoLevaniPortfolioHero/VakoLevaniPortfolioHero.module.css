@@ -29,6 +29,9 @@
   flex-direction: column;
   justify-content: center;
 }
+.mainWrapper p {
+  margin-top: 30px;
+}
 
 .mainWrapper h2 {
   margin: 15px 0 20px 0;
@@ -70,7 +73,7 @@
   .mainWrapper h1 {
     text-align: center;
   }
-  .mainWrapper button {
+  .mainWrapper p {
     display: none;
   }
 }

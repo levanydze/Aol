@@ -20,6 +20,8 @@ export default function Home() {
         buttonValue="See My Work Below"
       />
       <VakoLevaniWhatIDo />
+      <nav></nav>
+
       <ItemsServicesArray
         title="Our Services"
         span="Services You Can Order"

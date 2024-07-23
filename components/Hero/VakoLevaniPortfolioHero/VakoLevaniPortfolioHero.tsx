@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./VakoLevaniPortfolioHero.module.css";
 import imagesJson from "../../../json/images.json";
+import ScrollingButton from "../../../components/miniComponents/scrollingButton/ScrollingButton";
 
 interface heroProps {
   h1: string;
@@ -18,7 +19,13 @@ export default function Chachaweb({ h1, h2, buttonValue }: heroProps) {
             <div className={styles.mainWrapper}>
               <h1 className="title8">{h1}</h1>
               <h2 className={`title2 ${styles.title}`}>{h2}</h2>
-              <button className="button button-bold">{buttonValue}</button>
+              <ScrollingButton
+                value={buttonValue}
+                pixels={1700}
+                direction="down"
+                className="button"
+                button={true}
+              />
             </div>
             <div>
               <Image

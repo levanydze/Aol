@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "./Header.module.css";
 import { companyLogo } from "../../../controlFolder/control";
 import Link from "next/link";
+import ScrollingButton from "../../miniComponents/scrollingButton/ScrollingButton";
 
 export default function Header3() {
   return (
@@ -14,11 +15,26 @@ export default function Header3() {
           <div className={styles.navButtonWrap}>
             <nav>
               <ul>
-                <li className="font1">Portfolio</li>
+                <ScrollingButton
+                  value="Portfolio"
+                  pixels={1700}
+                  direction="down"
+                  bottomOffset={0}
+                  className="font1"
+                  button={false}
+                />
                 <li className="font1">About</li>
               </ul>
             </nav>
-            <button className="button button-bold">Get In Touch</button>
+            {/* <button className="button button-bold">Get In Touch</button> */}
+            <ScrollingButton
+              value="Get In Touch"
+              pixels={10000}
+              direction="down"
+              bottomOffset={150}
+              className="button button-bold"
+              button={true}
+            />
           </div>
         </div>
       </div>
