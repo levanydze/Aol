@@ -5,7 +5,7 @@ export default function LoadingDiv() {
   return (
     <div className="container1">
       <div className={styles.loadingWrapper}>
-        <h6 className="title5 color1 font1 ">Loading Data</h6>
+        <h6 className="title5 ">Loading Data</h6>
       </div>
     </div>
   );

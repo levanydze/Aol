@@ -43,6 +43,10 @@
 }
 
 @media (max-width: 770px) {
+  .sectionWrapper {
+    position: static;
+    transform: translate(0);
+  }
   .mainWrapper {
     margin: 0;
   }
@@ -72,12 +76,6 @@
 }
 @media (max-width: 730px) {
 }
-@media (max-width: 500px) {
-  .sectionWrapper {
-    /* margin-top: 250px; */
-  }
-}
-
 @media (max-width: 420px) {
   .sectionWrapper {
     margin-top: 200px;

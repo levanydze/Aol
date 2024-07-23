@@ -13,7 +13,7 @@ function NotFoundComponent() {
           Sorry, the page you are looking for was not found!
         </h1>
         <Link className="button" href="./">
-          Back To Homepage
+          Back to home
         </Link>
       </div>
     </div>

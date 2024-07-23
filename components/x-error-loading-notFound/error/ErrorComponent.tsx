@@ -8,9 +8,9 @@ export default function ErrorDiv() {
     <div className="container2">
       <section>
         <div className={styles.errorWrapper}>
-          <h6 className="title6 color1 ">Error Occured</h6>
-          <Link href="./" className="button1">
-            Back To Home Page
+          <h6 className="title6  ">Error Occured</h6>
+          <Link href="./" className="button">
+            Back to home
           </Link>
         </div>
       </section>
