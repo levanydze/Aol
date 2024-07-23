@@ -3,6 +3,7 @@ import styles from "./ItemsServicesArray.module.css";
 import { fetchData } from "../DataFetch";
 import Image from "next/image";
 import Link from "next/link";
+import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 
 export interface ProjectProps {
   id: string;
@@ -36,18 +37,19 @@ export default async function ItemsServicesArray({
           <div className="container">
             <div className={styles.mainWrap}>
               <div className={styles.textWrap}>
-                <p className="title3">{project.text}</p>
-                <h3 className="title8">{project.title}</h3>
+                <p className="title2">{project.text}</p>
+                <h3 className="title5">{project.title}</h3>
                 <Link className="button" href={`/services/${project.id}`}>
                   See This Project
+                  <HiOutlineArrowNarrowRight />
                 </Link>
               </div>
               <div>
                 <Link href={`/services/${project.id}`}>
-                  <img
+                  <Image
                     src={project.image}
-                    width={100}
-                    height={100}
+                    width={1500}
+                    height={2000}
                     alt={project.title}
                   />
                 </Link>

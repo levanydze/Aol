@@ -1,13 +1,15 @@
 .sectionWrapper {
   display: flex;
   height: 100vh;
+  max-height: 1000px;
   justify-content: space-between;
 }
 .sectionWrapper img {
-  height: 80vh;
+  height: 100%;
   width: auto;
   object-fit: contain;
   transform: scaleX(-1);
+  padding: 80px 0;
 }
 .mainWrapper {
   display: flex;
@@ -18,23 +20,31 @@
 .mainWrapper h2 {
   margin: 15px 0 20px 0;
   max-width: 400px;
-  line-height: 30px;
+  line-height: 40px;
+  color: var(--gray7);
 }
 
 .mainWrapper h1 {
   font-weight: 900;
-  color: var(--gray6);
+  color: var(--gray5);
 }
 
 @media (max-width: 770px) {
+  .mainWrapper {
+    margin: 0;
+  }
   .sectionWrapper {
     flex-direction: column;
     justify-content: center;
+    margin-top: 180px;
+    height: auto;
   }
   .sectionWrapper img {
     margin: 0 auto;
     height: 500px;
-    margin-top: 70px;
+    margin: 70px auto;
+    /* margin-bottom: 300px; */
+    padding: 0;
   }
   .mainWrapper h2 {
     text-align: center;
@@ -45,5 +55,24 @@
   }
   .mainWrapper button {
     display: none;
+  }
+}
+@media (max-width: 730px) {
+}
+@media (max-width: 500px) {
+  .sectionWrapper {
+    margin-top: 250px;
+  }
+}
+
+@media (max-width: 420px) {
+  .sectionWrapper {
+    margin-top: 280px;
+  }
+}
+
+@media (max-width: 420px) {
+  .sectionWrapper {
+    margin-top: 350px;
   }
 }

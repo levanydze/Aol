@@ -24,18 +24,13 @@
   color: var(--textLight);
 }
 .buttonDisabled {
-  border: 1px solid var(--textMedium);
-  background-color: var(--textMedium);
-  width: max-content;
-  padding: 10px 15px;
-  border-radius: 2px;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  transition: all 0.2s;
+  background-color: var(--gray3);
+  border: 2px solid var(--gray3);
   color: var(--textLight);
-  cursor: pointer;
-  align-items: center;
-  justify-content: center;
+  cursor: default;
+}
+.buttonDisabled:hover {
+  background-color: var(--gray3);
+  border: 2px solid var(--gray3);
 }
 /* button1 END */

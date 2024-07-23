@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Header3() {
   return (
-    <header className="section header ">
+    <header className="section header absolute ">
       <div className={`container`}>
         <div className={` ${styles.headWrapper}`}>
           <Link href="/">
@@ -18,7 +18,7 @@ export default function Header3() {
                 <li className="font1">About</li>
               </ul>
             </nav>
-            <button className="button button-bold">Gsset In Touch</button>
+            <button className="button button-bold">Get In Touch</button>
           </div>
         </div>
       </div>

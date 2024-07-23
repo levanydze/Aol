@@ -38,8 +38,8 @@ const ContactForm: React.FC = () => {
   const onSubmit = sendEmail(form, handleEmailSent);
 
   return (
-    <div className="container2">
-      <section>
+    <section className="section">
+      <div className="container">
         <div className={styles.contactWrapper}>
           <div className={styles.rightSide}>
             <form
@@ -109,8 +109,8 @@ const ContactForm: React.FC = () => {
             </div>
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 };
 
