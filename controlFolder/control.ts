@@ -1,13 +1,13 @@
 //metadata
-export const mainTitle = "ChaCha Web Agency"; //metadadta Title
+export const mainTitle = "LeoDze Web Designer"; //metadadta Title
 export const companyDescription =
   "out main target is restaurant and construction companies but we also create web sites for various category companies "; //metadata title
 
 //info
-export const companyName = "ChaCha";
-export const companyFullName = "ChaCha AB";
-export const underLogo = "WEB AGENCY"; //Restaurant or Web agency or...
-export const companyDomain = "https://chachaweb.se";
+export const companyName = "LeoDze";
+export const companyFullName = "LeoDze";
+export const underLogo = ""; //Restaurant or Web agency or...
+export const companyDomain = "https://LeoDze.com";
 export const googleVerification = "";
 export const googleAnalyticsId = "";
 export const companyLogo =

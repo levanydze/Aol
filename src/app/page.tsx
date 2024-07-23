@@ -35,7 +35,6 @@ export default function Home() {
       <Divider />
 
       <VakoSayHi />
-      <Divider />
     </main>
   );
 }

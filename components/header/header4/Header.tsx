@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Header3() {
   return (
-    <header className="section header absolute ">
+    <header className="section noPadding absolute ">
       <div className={`container`}>
         <div className={` ${styles.headWrapper}`}>
           <Link href="/">

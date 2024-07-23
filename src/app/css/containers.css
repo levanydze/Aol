@@ -3,7 +3,7 @@
   width: 100%;
 }
 .section {
-  padding: 80px 150px;
+  padding: 150px 150px;
   width: 100%;
 }
 
@@ -18,33 +18,33 @@
 
 @media (max-width: 1300px) {
   .section {
-    padding: 70px 100px;
+    padding: 120px 100px;
   }
 }
 @media (max-width: 1000px) {
   .section {
-    padding: 60px 80px;
+    padding: 100px 80px;
   }
 }
 @media (max-width: 800px) {
   .section {
-    padding: 50px 70px;
+    padding: 80px 70px;
   }
 }
 @media (max-width: 600px) {
   .section {
-    padding: 50px 50px;
+    padding: 70px 50px;
   }
 }
 
 @media (max-width: 500px) {
   .section {
-    padding: 30px 30px;
+    padding: 60px 30px;
   }
 }
 
 /* header css */
-.header {
+.noPadding {
   padding-top: 15px;
   padding-bottom: 15px;
 }

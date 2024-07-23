@@ -38,79 +38,77 @@ const ContactForm: React.FC = () => {
   const onSubmit = sendEmail(form, handleEmailSent);
 
   return (
-    <section className="section">
-      <div className="container">
-        <div className={styles.contactWrapper}>
-          <div className={styles.rightSide}>
-            <form
-              className={`${styles.form} ${emailSent ? styles.none : ""}`}
-              ref={form}
-              onSubmit={onSubmit}
-            >
-              <div className={styles.smallInputs}>
-                <div className={styles.inputDiv}>
-                  <input
-                    className={`${styles.input} ${styles.miniInput} ${
-                      nameError ? styles.inputRed : ""
-                    }`}
-                    type="text"
-                    name="user_name"
-                    placeholder="Enter your full name"
-                    value={nameValue}
-                    onChange={(e) => setNameValue(e.target.value)}
-                  />
-                </div>
-
-                <div className={styles.inputDiv}>
-                  <input
-                    className={`${styles.input} ${styles.miniInput}
-             ${emailError ? `${styles.inputRed}  ${styles.emailInput}` : ""}
-           `}
-                    type="email"
-                    name="user_email"
-                    placeholder="Enter your email address"
-                    value={emailValue}
-                    onChange={(e) => setEmailValue(e.target.value)}
-                  />
-                </div>
-              </div>
-              <div className={styles.messageDiv}>
-                <textarea
-                  className={`${styles.textArea} ${styles.input}
-           ${messageError ? styles.inputRed : ""}
-         `}
-                  name="message"
-                  placeholder="Enter our message "
-                  value={messageValue}
-                  onChange={(e) => setMessageValue(e.target.value)}
+    <div className="container">
+      <div className={styles.contactWrapper}>
+        <div className={styles.rightSide}>
+          <form
+            className={`${styles.form} ${emailSent ? styles.none : ""}`}
+            ref={form}
+            onSubmit={onSubmit}
+          >
+            <div className={styles.smallInputs}>
+              <div className={styles.inputDiv}>
+                <input
+                  className={`${styles.input} ${styles.miniInput} ${
+                    nameError ? styles.inputRed : ""
+                  }`}
+                  type="text"
+                  name="user_name"
+                  placeholder="Enter your full name"
+                  value={nameValue}
+                  onChange={(e) => setNameValue(e.target.value)}
                 />
               </div>
-              <button
-                value="SEND"
-                type={
-                  nameValue && messageValue && emailValue ? "submit" : "button"
-                }
-                className={` button ${styles.buttonSend} ${
-                  !buttonDisable ? "button" : "buttonDisabled"
-                }  
+
+              <div className={styles.inputDiv}>
+                <input
+                  className={`${styles.input} ${styles.miniInput}
+             ${emailError ? `${styles.inputRed}  ${styles.emailInput}` : ""}
+           `}
+                  type="email"
+                  name="user_email"
+                  placeholder="Enter your email address"
+                  value={emailValue}
+                  onChange={(e) => setEmailValue(e.target.value)}
+                />
+              </div>
+            </div>
+            <div className={styles.messageDiv}>
+              <textarea
+                className={`${styles.textArea} ${styles.input}
+           ${messageError ? styles.inputRed : ""}
+         `}
+                name="message"
+                placeholder="Enter our message "
+                value={messageValue}
+                onChange={(e) => setMessageValue(e.target.value)}
+              />
+            </div>
+            <button
+              value="SEND"
+              type={
+                nameValue && messageValue && emailValue ? "submit" : "button"
+              }
+              className={` button ${styles.buttonSend} ${
+                !buttonDisable ? "button" : "buttonDisabled"
+              }  
             
           `}
-                onClick={
-                  !nameValue || !messageValue || !emailValue.includes("@")
-                    ? handleErrors
-                    : () => setButtonDisable(true)
-                }
-              >
-                Send
-              </button>
-            </form>
-            <div className={emailSent ? styles.formSent : styles.hide}>
-              <h6 className="title5"> Thank you for your message</h6>
-            </div>
+              onClick={
+                !nameValue || !messageValue || !emailValue.includes("@")
+                  ? handleErrors
+                  : () => setButtonDisable(true)
+              }
+            >
+              Send
+            </button>
+          </form>
+          <div className={emailSent ? styles.formSent : styles.hide}>
+            <h6 className="title5"> Thank you for your message</h6>
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 

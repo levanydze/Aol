@@ -1,11 +1,24 @@
+.wrapper {
+  max-height: 1300px;
+  height: 100vh;
+  position: relative;
+}
+
 .sectionWrapper {
   display: flex;
-  height: 100vh;
-  max-height: 1000px;
   justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1300px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
 }
 .sectionWrapper img {
   height: 100%;
+  width: 100%;
+  max-height: 700px;
   width: auto;
   object-fit: contain;
   transform: scaleX(-1);
@@ -61,18 +74,12 @@
 }
 @media (max-width: 500px) {
   .sectionWrapper {
-    margin-top: 250px;
+    /* margin-top: 250px; */
   }
 }
 
 @media (max-width: 420px) {
   .sectionWrapper {
-    margin-top: 280px;
-  }
-}
-
-@media (max-width: 420px) {
-  .sectionWrapper {
-    margin-top: 350px;
+    margin-top: 200px;
   }
 }

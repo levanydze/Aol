@@ -27,7 +27,7 @@ export default function VakoLevaniWhatIDo() {
   ];
 
   return (
-    <section className="section header">
+    <section className="section">
       <div className="container">
         <div className={styles.whatIDoWrapper}>
           <div className={styles.h3}>

@@ -32,6 +32,7 @@ import {
   googleVerification,
 } from "../../controlFolder/control";
 import Script from "next/script";
+import Divider from "@/components/miniComponents/Divider/Divider";
 export const metadata: Metadata = {
   metadataBase: new URL(companyDomain),
   title: {
@@ -71,6 +72,8 @@ export default function LocaleLayout({
         <Header />
         {children}
         <Analytics />
+        <Divider />
+
         <LowerFoot />
       </body>
     </html>
