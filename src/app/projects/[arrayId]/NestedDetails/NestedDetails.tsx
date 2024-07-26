@@ -15,26 +15,22 @@ export default async function NestedDetails({ arrayId }: MenuDetailsProps) {
 
   return (
     <>
-      <div className="container2">
-        <section>
-          <div className={styles.mainWrapper}>
-            <h1 className="title4">{data.text}</h1>
-            <div className={styles.textWrapper}>
-              <h2 className="title6">{data.title}</h2>
-              <p className="text1 ">{data.describtion}</p>
-            </div>
-            <Link className="button3" href="/en/contact">
-              Get Yours
-            </Link>
-          </div>
-        </section>
-        <Image
-          width={700}
-          height={3000}
-          alt={data.title}
-          src={data.wholeImages}
-          title={data.title}
-        />
+      <div className={styles.mainWrapper}>
+        <h1 className="title9">{data.location}</h1>
+        <div className={styles.textWrapper}>
+          {/* <h2 className="title3">{data.title}</h2> */}
+          <p className="text1">{data.text1}</p>
+          <p className="text1">{data.text2}</p>
+        </div>
+        <div className={styles.imageWrapper}>
+          <Image
+            width={1000}
+            height={3000}
+            alt={data.title}
+            src={data.wholeImage}
+            title={data.title}
+          />
+        </div>
       </div>
     </>
   );

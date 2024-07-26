@@ -17,11 +17,11 @@ export default function Chachaweb({ h1, h2, buttonValue }: heroProps) {
         <div className={styles.wrapper}>
           <div className={styles.sectionWrapper}>
             <div className={styles.mainWrapper}>
-              <h1 className="title8">{h1}</h1>
+              <h1 className="title8 font2">{h1}</h1>
               <h2 className={`title2 ${styles.title}`}>{h2}</h2>
               <ScrollingButton
                 value={buttonValue}
-                pixels={1700}
+                pixels={1600}
                 direction="down"
                 className="button"
                 button={true}

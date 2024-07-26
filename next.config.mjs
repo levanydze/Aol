@@ -19,7 +19,7 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: "/services",
+        source: "/projects",
         destination: "/",
         permanent: false, // Set to true if this is a permanent redirect
       },

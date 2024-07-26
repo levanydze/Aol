@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Nunito_Sans, Roboto_Flex, Gabriela } from "next/font/google";
+import { Nunito_Sans, Roboto_Flex, Shantell_Sans } from "next/font/google";
 import "./globals.css";
 import Header from "../../components/header/header4/Header";
 import LowerFoot from "../../components/footer/lowerFooter3/LowerFoot";
@@ -12,10 +12,10 @@ const roboto = Roboto_Flex({
   weight: ["100", "200", "300", "400", "500", "600", "700"],
 });
 
-const gabriela = Gabriela({
+const shantel = Shantell_Sans({
   subsets: ["latin"],
-  weight: ["400"],
-  variable: "--font4",
+  weight: ["300", "400", "500", "600", "700", "800"],
+  variable: "--font2",
 });
 
 const nunito = Nunito_Sans({
@@ -67,13 +67,12 @@ export default function LocaleLayout({
         </Script>
       </head>
       <body
-        className={` ${roboto.className} ${nunito.variable}  ${gabriela.variable}   `}
+        className={` ${roboto.className} ${nunito.variable}  ${shantel.variable}   `}
       >
         <Header />
         {children}
         <Analytics />
         <Divider />
-
         <LowerFoot />
       </body>
     </html>

@@ -37,22 +37,20 @@ export default async function ItemsServicesArray({
           <div className="container">
             <div className={styles.mainWrap}>
               <div className={styles.textWrap}>
-                <p className="title2">{project.text}</p>
+                <p className="title2">{project.location}</p>
                 <h3 className="title5">{project.title}</h3>
-                <Link className="button" href={`/services/${project.id}`}>
+                <Link className="button" href={`/projects/${project.id}`}>
                   See This Project
                   <HiOutlineArrowNarrowRight />
                 </Link>
               </div>
               <div>
-                <Link href={`/projects/${project.id}`}>
-                  <Image
-                    src={project.image}
-                    width={1500}
-                    height={2000}
-                    alt={project.title}
-                  />
-                </Link>
+                <Image
+                  src={project.image}
+                  width={1500}
+                  height={2000}
+                  alt={project.title}
+                />
               </div>
             </div>
           </div>

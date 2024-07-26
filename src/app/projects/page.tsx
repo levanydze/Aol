@@ -3,7 +3,7 @@ export const metadata = {
   title: "Services",
 };
 
-export default function AboutPage() {
+export default function ProjectsPage() {
   return (
     <div className="fadeOut">
       <ItemsServicesArray

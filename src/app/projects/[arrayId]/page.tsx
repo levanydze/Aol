@@ -1,22 +1,19 @@
 import React from "react";
-import Link from "next/link";
-import { RiArrowGoBackFill } from "react-icons/ri";
 import styles from "./page.module.css";
 import NestedDetails from "./NestedDetails/NestedDetails";
+import VakoSayHi from "../../../../components/sectionComponents/VakoSayHi/VakoSayHi";
+import Divider from "../../../../components/miniComponents/Divider/Divider";
 
 // metadata
 import { findDataById } from "../DataFetch";
-// import PageHeadSpace from "../../../../../components/anyPageHead/PageHadSpace/PageHeadSpace";
 export const generateMetadata = async ({ params }: MenuDetailsPageProps) => {
   try {
     const data = await findDataById(params.arrayId);
     return {
-      title: data.titleENG,
-      description: data.descriptionENG, // Assuming there's a 'description' field
+      title: data.title,
+      description: data.text1, // Assuming there's a 'description' field
       alternates: {
-        canonical: `/en/gallery/${data.titleENG
-          .replace(/\s+/g, "-")
-          .toLowerCase()}`, // Clean up title for URL
+        canonical: `/projects/${data.title.replace(/\s+/g, "-").toLowerCase()}`, // Clean up title for URL
       },
     };
   } catch (error) {}
@@ -30,13 +27,17 @@ interface MenuDetailsPageProps {
 
 export default function ArrayNestedPage({ params }: MenuDetailsPageProps) {
   return (
-    <div className={`fadeOut ${styles.pageDetailWrapper}`}>
-      <div className={styles.lowerDiv}>
-        <Link href="./">
-          <RiArrowGoBackFill className={styles.goBackIcon} />
-        </Link>
-      </div>
-      <NestedDetails arrayId={params.arrayId} />
-    </div>
+    <>
+      <section className="section">
+        <div className="container">
+          <div className={`fadeOut ${styles.pageDetailWrapper}`}>
+            <div className={styles.lowerDiv}></div>
+            <NestedDetails arrayId={params.arrayId} />
+          </div>
+        </div>
+      </section>
+      <Divider />
+      <VakoSayHi />
+    </>
   );
 }
