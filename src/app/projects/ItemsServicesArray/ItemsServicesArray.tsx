@@ -45,7 +45,7 @@ export default async function ItemsServicesArray({
                 </Link>
               </div>
               <div>
-                <Link href={`/services/${project.id}`}>
+                <Link href={`/projects/${project.id}`}>
                   <Image
                     src={project.image}
                     width={1500}

@@ -9,7 +9,7 @@ export const metadata = {
   description: `${companyDescription}`,
 };
 
-import ItemsServicesArray from "./services/ItemsServicesArray/ItemsServicesArray";
+import ItemsServicesArray from "./projects/ItemsServicesArray/ItemsServicesArray";
 
 export default function Home() {
   return (

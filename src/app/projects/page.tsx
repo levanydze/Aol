@@ -1,4 +1,4 @@
-import ItemsServicesArray from "../services/ItemsServicesArray/ItemsServicesArray";
+import ItemsServicesArray from "./ItemsServicesArray/ItemsServicesArray";
 export const metadata = {
   title: "Services",
 };
