@@ -4,7 +4,7 @@ import { companyFullName } from "../../../controlFolder/control";
 export default function LowerFoot() {
   return (
     <div className="container2">
-      <section>
+      <section className="section paddingMini">
         <div className={styles.lowerWrap}>
           <p>© Copyright - Levani Levanidze</p>
         </div>

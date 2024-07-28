@@ -1,13 +1,13 @@
 //metadata
-export const mainTitle = "LeoDze Web Designer"; //metadadta Title
+export const mainTitle = "LevaniDze Web Designer"; //metadadta Title
 export const companyDescription =
   "out main target is restaurant and construction companies but we also create web sites for various category companies "; //metadata title
 
 //info
-export const companyName = "LeoDze";
-export const companyFullName = "LeoDze";
+export const companyName = "LevaniDze";
+export const companyFullName = "LevaniDze";
 export const underLogo = ""; //Restaurant or Web agency or...
-export const companyDomain = "https://LeoDze.com";
+export const companyDomain = "https://Levanidze.com";
 export const googleVerification = "";
 export const googleAnalyticsId = "";
 export const companyLogo =
@@ -47,4 +47,4 @@ export const navItems: NavItemProps[] = [
 
 // firebase iner menuLink for fetching menu for specific restaurant
 // for example: export const firebaseMenuLink = "chachaab/menu";
-export const firebaseMenuLink = "chachaab/menu";
+// export const firebaseMenuLink = "chachaab/menu";

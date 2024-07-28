@@ -5,6 +5,7 @@
   top: 0;
   position: relative;
   z-index: 1;
+  margin-top: 15px;
 }
 .navButtonWrap {
   display: flex;
@@ -31,6 +32,9 @@
   cursor: pointer;
   color: var(--color1);
 }
+.mobilePortfolio {
+  display: none;
+}
 
 .headWrapper img {
   object-fit: contain;
@@ -40,7 +44,22 @@
   top: 20px;
   width: 120px;
 }
-
+@media (max-width: 770px) {
+  .desctopPortfolio {
+    display: none;
+  }
+  .mobilePortfolio {
+    display: block;
+  }
+}
+@media (max-width: 770px) {
+  .desctopPortfolio {
+    display: none;
+  }
+  .mobilePortfolio {
+    display: block;
+  }
+}
 @media (max-width: 730px) {
   .headWrapper img {
     position: static;

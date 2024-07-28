@@ -19,7 +19,7 @@ export default function Home() {
         h2="I'm a UX/UI designer, Webflow developer, and a best-selling instructor. If you're looking for a capable designer, get in touch."
         buttonValue="See My Work Below"
       />
-      <VakoLevaniWhatIDo />
+      {/* <VakoLevaniWhatIDo /> */}
       <nav></nav>
 
       <ItemsServicesArray

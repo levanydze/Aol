@@ -21,9 +21,7 @@ export default function Header3() {
                 {pathname === "/" ? (
                   <ScrollingButton
                     value="Portfolio"
-                    pixels={1600}
-                    direction="down"
-                    bottomOffset={0}
+                    viewHeight={true}
                     className="font1"
                     button={false}
                   />
@@ -44,9 +42,8 @@ export default function Header3() {
             pathname === "/employer" ? (
               <ScrollingButton
                 value="Get In Touch"
-                pixels={10000}
-                direction="down"
-                bottomOffset={150}
+                scrollToEnd={true}
+                bottomOffset={200}
                 className="button button-bold"
                 button={true}
               />

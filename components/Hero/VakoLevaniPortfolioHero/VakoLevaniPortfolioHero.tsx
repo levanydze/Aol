@@ -12,7 +12,7 @@ interface heroProps {
 export default function Chachaweb({ h1, h2, buttonValue }: heroProps) {
   const { mePngCartoon } = imagesJson;
   return (
-    <section className="section noPadding">
+    <section className="section noPadding section-pink">
       <div className={` container ${styles.wrapper}`}>
         <div className={styles.wrapper}>
           <div className={styles.sectionWrapper}>
@@ -21,8 +21,7 @@ export default function Chachaweb({ h1, h2, buttonValue }: heroProps) {
               <h2 className={`title2 ${styles.title}`}>{h2}</h2>
               <ScrollingButton
                 value={buttonValue}
-                pixels={1600}
-                direction="down"
+                viewHeight={true}
                 className="button"
                 button={true}
               />
@@ -33,6 +32,7 @@ export default function Chachaweb({ h1, h2, buttonValue }: heroProps) {
                 alt="levani levanidze cartoon"
                 width={1000}
                 height={1500}
+                priority
               ></Image>
             </div>
           </div>

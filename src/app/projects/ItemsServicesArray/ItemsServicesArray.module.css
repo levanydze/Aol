@@ -4,7 +4,7 @@
   padding: 50px 02;
 }
 .mainWrap img {
-  padding-left: 100px;
+  /* padding-left: 100px; */
   height: 100%;
   max-height: 600px;
   object-fit: contain;
@@ -37,7 +37,7 @@
   font-size: 20px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .mainWrap {
     flex-direction: column;
     align-items: center;
@@ -46,9 +46,15 @@
   .mainWrap img {
     margin: 0 auto;
     padding-left: 0;
+    margin-left: -50px;
   }
   .textWrap a {
     margin: 50px auto;
+  }
+  .textWrap svg {
+    transform: rotate(90deg);
+    margin-right: -10px;
+    margin-left: 10px;
   }
   .textWrap {
     margin: 0 auto;
@@ -56,5 +62,13 @@
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 700px) {
+  .mainWrap img {
+    margin-left: -30px;
+  }
+}
+@media (max-width: 600px) {
+  .mainWrap img {
+    margin-left: -20px;
+  }
 }

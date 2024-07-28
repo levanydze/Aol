@@ -29,6 +29,7 @@ export default async function NestedDetails({ arrayId }: MenuDetailsProps) {
             alt={data.title}
             src={data.wholeImage}
             title={data.title}
+            priority
           />
         </div>
       </div>

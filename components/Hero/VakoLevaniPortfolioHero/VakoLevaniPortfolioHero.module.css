@@ -50,13 +50,13 @@
     position: static;
     transform: translate(0);
   }
-  .mainWrapper {
+  .wrapper {
     margin: 0;
   }
   .sectionWrapper {
     flex-direction: column;
     justify-content: center;
-    margin-top: 180px;
+    padding-top: 180px;
     height: auto;
   }
   .sectionWrapper img {
@@ -77,10 +77,8 @@
     display: none;
   }
 }
-@media (max-width: 730px) {
-}
 @media (max-width: 420px) {
   .sectionWrapper {
-    margin-top: 200px;
+    padding-top: 200px;
   }
 }
