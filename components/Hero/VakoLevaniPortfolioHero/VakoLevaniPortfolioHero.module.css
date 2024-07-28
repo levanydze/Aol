@@ -52,6 +52,7 @@
   }
   .wrapper {
     margin: 0;
+    height: auto;
   }
   .sectionWrapper {
     flex-direction: column;

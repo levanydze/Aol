@@ -1,6 +1,7 @@
 .absolute {
   position: absolute;
   width: 100%;
+  top: 0;
 }
 .section {
   padding: 150px 150px;
@@ -47,6 +48,10 @@
 }
 
 /* header css */
+.header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 .noPadding {
   padding-top: 0px;
   padding-bottom: 0px;

@@ -9,7 +9,7 @@ import { usePathname } from "next/navigation";
 export default function Header3() {
   const pathname = usePathname();
   return (
-    <header className="section noPadding absolute ">
+    <header className="section header absolute ">
       <div className={`container`}>
         <div className={` ${styles.headWrapper}`}>
           <Link href="/">
@@ -19,12 +19,25 @@ export default function Header3() {
             <nav>
               <ul>
                 {pathname === "/" ? (
-                  <ScrollingButton
-                    value="Portfolio"
-                    viewHeight={true}
-                    className="font1"
-                    button={false}
-                  />
+                  <>
+                    <div className={styles.desctopPortfolio}>
+                      <ScrollingButton
+                        value="Portfolio"
+                        viewHeight={true}
+                        className="font1"
+                        button={false}
+                      />
+                    </div>
+                    <div className={styles.mobilePortfolio}>
+                      <ScrollingButton
+                        value="Portfolio"
+                        viewHeight={true}
+                        pixels={250}
+                        className="font1"
+                        button={false}
+                      />
+                    </div>
+                  </>
                 ) : (
                   <li className="font1">
                     <Link href="./">Portfolio</Link>
@@ -43,7 +56,7 @@ export default function Header3() {
               <ScrollingButton
                 value="Get In Touch"
                 scrollToEnd={true}
-                bottomOffset={200}
+                bottomOffset={130}
                 className="button button-bold"
                 button={true}
               />

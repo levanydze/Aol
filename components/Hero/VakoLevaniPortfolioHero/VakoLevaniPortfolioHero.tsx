@@ -13,7 +13,7 @@ export default function Chachaweb({ h1, h2, buttonValue }: heroProps) {
   const { mePngCartoon } = imagesJson;
   return (
     <section className="section noPadding section-pink">
-      <div className={` container ${styles.wrapper}`}>
+      <div className="container ">
         <div className={styles.wrapper}>
           <div className={styles.sectionWrapper}>
             <div className={styles.mainWrapper}>

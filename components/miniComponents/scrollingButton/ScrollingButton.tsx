@@ -2,8 +2,8 @@
 
 interface ScrollProps {
   value: string;
-  pixels?: number; // Made optional for flexibility
-  scrollToEnd?: boolean; // New prop to indicate scrolling to the end of the page
+  pixels?: number;
+  scrollToEnd?: boolean;
   bottomOffset?: number;
   className?: string;
   button: boolean;
@@ -12,12 +12,12 @@ interface ScrollProps {
 
 export default function ScrollingButton({
   value,
-  pixels,
+  pixels = 0,
   scrollToEnd = false,
   viewHeight = false,
   className,
   button,
-  bottomOffset = 0, // Default value for scroll back amount
+  bottomOffset = 0,
 }: ScrollProps) {
   const scrollByPixels = () => {
     if (scrollToEnd) {
@@ -30,7 +30,7 @@ export default function ScrollingButton({
       });
     } else if (viewHeight) {
       const viewportHeight = window.innerHeight;
-      const scrollAmount = viewportHeight;
+      const scrollAmount = viewportHeight + pixels;
       window.scrollTo({
         top: scrollAmount,
         behavior: "smooth",
@@ -42,13 +42,6 @@ export default function ScrollingButton({
         behavior: "smooth",
       });
     }
-  };
-
-  const scrollBack = (offset: number) => {
-    window.scrollBy({
-      top: -offset,
-      behavior: "smooth",
-    });
   };
 
   const handleClick = () => {
