@@ -1,9 +1,9 @@
 import { companyDomain } from "../../controlFolder/control";
 import { navItems } from "../../controlFolder/control";
-// import { fireData } from "./menu/functions";
+import { fetchData } from "./projects/DataFetch";
 
 export default async function sitemap() {
-  // const slug = await fireData();
+  const projects = await fetchData();
 
   // if (!slug) {
   // return null;
@@ -19,6 +19,12 @@ export default async function sitemap() {
   //     priority: 0.7,
   //   }))
   // );
+  const projectsArray = projects.map((item) => ({
+    url: `${companyDomain}/projects/${item.id}`,
+    lastModified: new Date().toISOString(),
+    changeFrequency: "monthly",
+    priority: 0.7,
+  }));
 
   // Mapping nav items to their URL objects
   const navUrls = navItems.map((navItem) => ({
@@ -28,7 +34,7 @@ export default async function sitemap() {
     priority: navItem.homePage ? 1 : 0.6,
   }));
 
-  // const allUrls = [...slugUrls, ...navUrls];
+  const allUrls = [...projectsArray, ...navUrls];
 
-  return navUrls;
+  return allUrls;
 }

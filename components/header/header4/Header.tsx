@@ -32,7 +32,7 @@ export default function Header3() {
                       <ScrollingButton
                         value="Portfolio"
                         viewHeight={true}
-                        pixels={250}
+                        pixels={280}
                         className="font1"
                         button={false}
                       />
@@ -44,7 +44,9 @@ export default function Header3() {
                   </li>
                 )}
                 <li className="font1">
-                  <Link href="/about">About</Link>
+                  <Link target="_blank" href="https://artoflevanidze.com">
+                    Photography
+                  </Link>
                 </li>
               </ul>
             </nav>
@@ -56,7 +58,7 @@ export default function Header3() {
               <ScrollingButton
                 value="Get In Touch"
                 scrollToEnd={true}
-                bottomOffset={130}
+                bottomOffset={170}
                 className="button button-bold"
                 button={true}
               />

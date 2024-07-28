@@ -1,5 +1,6 @@
 import styles from "./VakoLevaniWhatIDo.module.css";
 import assetsJson from "../../../json/assets.json";
+import Link from "next/link";
 
 export default function VakoLevaniWhatIDo() {
   const { chair, postbox, phone } = assetsJson;
@@ -11,18 +12,24 @@ export default function VakoLevaniWhatIDo() {
       subtitle: "Design",
       description:
         "Be it website or mobile app design, my clients get the product that has the best combination of outstanding user experience and visual aesthetics.",
+      link: "",
+      linkText: "",
     },
     {
       image: postbox,
       subtitle: "Website Development",
       description:
-        "By designing in Webflow I am able to deliver a fully responsive website with a clean, semantic code. This lets my clients cut huge costs on development. Read more about Webflow here.",
+        "By designing in Webflow and NextJs, I am able to deliver a fully responsive website with a clean, semantic code. This lets my clients cut huge costs on development.",
+      link: "",
+      linkText: "",
     },
     {
       image: phone,
-      subtitle: "Landing Pages",
+      subtitle: "Photography",
       description:
-        "When it comes to landing pages, I deliver an all-inclusive package. I design, build and host your page for free. You'll get a responsive page optimized for conversions.",
+        "As a highly qualified photographer, I create images that speak for your business, improving your website to be more custom and trustworthy. See more at my ",
+      link: "https://artoflevanidze.com",
+      linkText: "photography website.",
     },
   ];
 
@@ -38,8 +45,15 @@ export default function VakoLevaniWhatIDo() {
             {sections.map((section, index) => (
               <div key={index}>
                 <img src={section.image} width={100} height={100} alt="" />
-                <h4 className="title3">{section.subtitle}</h4>
-                <p className="title2">{section.description}</p>
+                <h4 className="title4">{section.subtitle}</h4>
+                <p className="title2">
+                  {section.description}
+                  {section.link ? (
+                    <Link target="_blank" href={section.link}>
+                      {section.linkText}
+                    </Link>
+                  ) : null}
+                </p>
               </div>
             ))}
           </div>
