@@ -29,22 +29,18 @@ export default async function PhotographyArray({
   const data: ProjectProps[] = await fetchData();
 
   return (
-    <>
+    <div className={styles.wrapper}>
       {data.slice(0, arrayNumber).map((project) => (
-        <section className="section" key={project.id}>
-          <div className="container">
-            <div className={styles.mainWrap}>
-              <div className={styles.textWrap}>
-                <p className="title2">{project.location}</p>
-                <h3 className="title8 font1">{project.title}</h3>
-              </div>
-              <div className={styles.sliderWrapper}>
-                <FramerSlider images={project.images} />
-              </div>
-            </div>
+        <div className={styles.mainWrap}>
+          <div className={styles.textWrap}>
+            <p className="title2">{project.location}</p>
+            <h3 className="title4 font1">{project.title}</h3>
           </div>
-        </section>
+          <div className={styles.sliderWrapper}>
+            <FramerSlider images={project.images} />
+          </div>
+        </div>
       ))}
-    </>
+    </div>
   );
 }
