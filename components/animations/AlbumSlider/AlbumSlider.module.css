@@ -10,8 +10,8 @@
 }
 .mainImage img {
   width: 100%;
-  max-height: 80vh;
-  object-fit: contain;
+  max-height: 600px;
+  object-fit: cover;
 }
 
 .navWrapper {
@@ -23,9 +23,10 @@
   align-items: center;
 }
 .mainWrapper > div > ::after {
-  color: var(--overlayLight);
+  /* color: var(--overlayLight); */
   transition: all 0.2s;
   padding: 20px;
+  color: var(--overlayLight);
 }
 .mainWrapper > div > :hover::after {
   color: var(--gray2);
