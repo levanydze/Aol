@@ -3,12 +3,12 @@ import assetsJson from "../../../json/assets.json";
 import Link from "next/link";
 
 export default function VakoLevaniWhatIDo() {
-  const { chair, postbox, phone } = assetsJson;
+  const { designIcon2, developmentIcon, cameraIcon2 } = assetsJson;
 
   // Data array representing the content of each section
   const sections = [
     {
-      image: chair,
+      image: designIcon2,
       subtitle: "Design",
       description:
         "Be it website or mobile app design, my clients get the product that has the best combination of outstanding user experience and visual aesthetics.",
@@ -16,7 +16,7 @@ export default function VakoLevaniWhatIDo() {
       linkText: "",
     },
     {
-      image: postbox,
+      image: developmentIcon,
       subtitle: "Website Development",
       description:
         "By designing in Webflow and NextJs, I am able to deliver a fully responsive website with a clean, semantic code. This lets my clients cut huge costs on development.",
@@ -24,7 +24,7 @@ export default function VakoLevaniWhatIDo() {
       linkText: "",
     },
     {
-      image: phone,
+      image: cameraIcon2,
       subtitle: "Photography",
       description:
         "As a highly qualified photographer, I create images that speak for your business, improving your website to be more custom and trustworthy. See more at my ",

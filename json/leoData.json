@@ -1,26 +1,78 @@
 [
   {
+    "id": "4",
+    "title": "Personal Favourites",
+    "text1": "This is a landing page design and build that I've done for an IT support company. I gave their brand a fresh new look and updated their color palette to something that says all systems are up and running, as that's what one would want from an IT support.",
+    "text2": "I have used custom illustrations to give a page more personal feel and less stocky, generic look. The goal was to combine friendly, local support with modern and top notch without making it look corporate or mom-and-pop kind of business.",
+    "images": [
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Favourites/1-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Favourites/2-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Favourites/3-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Favourites/4-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Favourites/5-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Favourites/6-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Favourites/7-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Favourites/8-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Favourites/9-min.jpg?raw=true"
+    ]
+  },
+  {
     "id": "3",
-    "text": "Custom-built book shelves 1",
-    "title": "Custom Book Shelves",
-    "text1": "text1",
-    "text2": "text2",
-    "image": "https://github.com/DonaB-hub/MyWebSite/blob/main/Images/Service%20Images/1.%20Services%20-%20%20Loft%20sang%20barn/021f7a2a-6d04-4182-8fc2-55bd37bcc8f9.jpeg?raw=true"
+    "title": "Landscape Photography",
+    "text1": "This is a landing page design and build that I've done for an IT support company. I gave their brand a fresh new look and updated their color palette to something that says all systems are up and running, as that's what one would want from an IT support.",
+    "text2": "I have used custom illustrations to give a page more personal feel and less stocky, generic look. The goal was to combine friendly, local support with modern and top notch without making it look corporate or mom-and-pop kind of business.",
+    "images": [
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Landscape/2-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Landscape/1-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Landscape/3-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Landscape/4-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Landscape/5-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Landscape/6-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Landscape/7-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Landscape/8-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Landscape/9-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Landscape/10-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Landscape/11-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Landscape/12-min.jpg?raw=true"
+    ]
   },
   {
     "id": "2",
-    "text": "Custom-built book shelves 2",
-    "title": "Custom Book Shelves",
-    "text1": "text1",
-    "text2": "text2",
-    "image": "https://github.com/DonaB-hub/MyWebSite/blob/main/Images/Service%20Images/1.%20Services%20-%20%20Loft%20sang%20barn/021f7a2a-6d04-4182-8fc2-55bd37bcc8f9.jpeg?raw=true"
+    "title": "Portrait Photography.",
+    "text1": "This is a landing page design and build that I've done for an IT support company. I gave their brand a fresh new look and updated their color palette to something that says all systems are up and running, as that's what one would want from an IT support.",
+    "text2": "I have used custom illustrations to give a page more personal feel and less stocky, generic look. The goal was to combine friendly, local support with modern and top notch without making it look corporate or mom-and-pop kind of business.",
+    "images": [
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Portrait/1-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Portrait/2-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Portrait/3-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Portrait/4-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Portrait/5-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Portrait/6-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Portrait/7-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Portrait/8-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Portrait/9-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Portrait/10-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Portrait/11-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Portrait/12-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Portrait/13-min.jpg?raw=true"
+    ]
   },
   {
     "id": "1",
-    "text": "Custom-built book shelves 3",
-    "title": "Custom Book Shelves",
-    "text1": "text1",
-    "text2": "text2",
-    "image": "https://github.com/DonaB-hub/MyWebSite/blob/main/Images/Service%20Images/1.%20Services%20-%20%20Loft%20sang%20barn/021f7a2a-6d04-4182-8fc2-55bd37bcc8f9.jpeg?raw=true"
+    "title": "Cityscape Photography.",
+    "text1": "This is a landing page design and build that I've done for an IT support company. I gave their brand a fresh new look and updated their color palette to something that says all systems are up and running, as that's what one would want from an IT support.",
+    "text2": "I have used custom illustrations to give a page more personal feel and less stocky, generic look. The goal was to combine friendly, local support with modern and top notch without making it look corporate or mom-and-pop kind of business.",
+    "images": [
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Cityscape/1-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Cityscape/2-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Cityscape/3-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Cityscape/4-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Cityscape/5-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Cityscape/6-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Cityscape/7-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Cityscape/8-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Cityscape/9-min.jpg?raw=true",
+      "https://github.com/levanydze/SUP/blob/main/VkLeo/photography/Cityscape/10-min.jpg?raw=true"
+    ]
   }
 ]

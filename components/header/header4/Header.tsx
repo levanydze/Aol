@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import styles from "./Header.module.css";
-import { companyLogo } from "../../../controlFolder/control";
+import { companyFullName, companyLogo } from "../../../controlFolder/control";
 import Link from "next/link";
 import ScrollingButton from "../../miniComponents/scrollingButton/ScrollingButton";
 import { usePathname } from "next/navigation";
@@ -13,7 +13,12 @@ export default function Header3() {
       <div className={`container`}>
         <div className={` ${styles.headWrapper}`}>
           <Link href="/">
-            <Image width={200} height={50} src={companyLogo} alt="" />
+            <Image
+              width={300}
+              height={100}
+              src={companyLogo}
+              alt={companyFullName}
+            />
           </Link>
           <div className={styles.navButtonWrap}>
             <nav>
@@ -44,9 +49,7 @@ export default function Header3() {
                   </li>
                 )}
                 <li className="font1">
-                  <Link target="_blank" href="https://artoflevanidze.com">
-                    Photography
-                  </Link>
+                  <Link href="/photography">Photography</Link>
                 </li>
               </ul>
             </nav>
@@ -54,6 +57,7 @@ export default function Header3() {
             {pathname === "/" ||
             pathname.startsWith("/projects") ||
             pathname === "/about" ||
+            pathname === "/photography" ||
             pathname === "/employer" ? (
               <ScrollingButton
                 value="Get In Touch"

@@ -16,7 +16,7 @@ export default function Home() {
     <main className="fadeOut">
       <VakoLevaniProtfolioHero
         h1="Hi. I'm Levani."
-        h2="I'm a UX/UI designer, Webflow/NextJs developer, and professional photographer. I create visually stunning, user-friendly designs and responsive websites, complete with memorable photographs."
+        h2="I'm a UX/UI designer, Webflow/NextJs developer and professional photographer. I create visually stunning, user-friendly designs and responsive websites, complete with memorable photographs."
         buttonValue="See My Work Below"
       />
       {/* <VakoLevaniWhatIDo /> */}
