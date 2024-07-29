@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./PhotographyArray.module.css";
 import { fetchData } from "../DataFetch";
 import FramerSlider from "../../../../components/animations/SliderAnimationDynamic/FramerSlider";
+import AlbumSlider from "../../../../components/animations/AlbumSlider/AlbumSlider";
 
 export interface ProjectProps {
   id: string;
@@ -37,7 +38,7 @@ export default async function PhotographyArray({
             <h3 className="title4 font1">{project.title}</h3>
           </div>
           <div className={styles.sliderWrapper}>
-            <FramerSlider images={project.images} />
+            <AlbumSlider title="" images={project.images} />
           </div>
         </div>
       ))}

@@ -1,6 +1,7 @@
 import Divider from "../../../components/miniComponents/Divider/Divider";
 import VakoSayHi from "../../../components/sectionComponents/VakoSayHi/VakoSayHi";
 import PhotographyArray from "./PhotographyArray/PhotographyArray";
+import VakoLevaniProtfolioHero from "../../../components/Hero/VakoLevaniPortfolioHero/VakoLevaniPortfolioHero";
 
 export const metadata = {
   title: "Photography",

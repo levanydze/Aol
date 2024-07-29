@@ -19,9 +19,6 @@ export default function Home() {
         h2="I'm a UX/UI designer, Webflow/NextJs developer and professional photographer. I create visually stunning, user-friendly designs and responsive websites, complete with memorable photographs."
         buttonValue="See My Work Below"
       />
-      {/* <VakoLevaniWhatIDo /> */}
-      <nav></nav>
-
       <ItemsServicesArray
         title="Our Services"
         span="Services You Can Order"

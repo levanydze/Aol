@@ -1,17 +1,20 @@
 .wrapper {
-  margin-top: 100px;
+  margin-bottom: 300px;
 }
 .mainWrap {
   display: flex;
   justify-content: space-between;
-  padding: 50px 02;
+  padding: 50px 0;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 .sliderWrapper {
   overflow: hidden;
   height: 100%;
-  max-height: 600px;
+  /* max-height: 600px; */
   object-fit: contain;
-  width: 900px;
+  width: 100%;
   max-width: 100%;
   margin: 20px 0;
 }
@@ -21,6 +24,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 20px;
 }
 .textWrap p {
   color: var(--gray5);
@@ -29,7 +33,6 @@
 }
 .textWrap h3 {
   color: var(--gray5);
-  width: 200px;
   font-weight: 900;
 }
 
@@ -43,9 +46,6 @@
 
 @media (max-width: 800px) {
   .mainWrap {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
   }
   .sliderWrapper {
     margin-bottom: 100px;
