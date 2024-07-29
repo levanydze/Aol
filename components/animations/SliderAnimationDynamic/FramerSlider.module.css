@@ -21,7 +21,7 @@
 .prev {
   top: calc(50% - 20px);
   position: absolute;
-  background: var(--gray2);
+  background: var(--overlayLight);
   border-radius: 30px;
   width: 40px;
   height: 40px;
@@ -39,7 +39,8 @@
 .next p,
 .prev p {
   position: absolute;
-  color: var(--color2);
+  color: var(--gray2);
+  transition: all 0.2s;
 }
 
 .next {
@@ -54,9 +55,10 @@
   transition: all 0.3s;
 }
 
-.next:hover,
-.prev:hover {
-  background-color: var(--gray4);
+.next:hover p,
+.prev:hover p {
+  color: var(--backgroundLight);
+  scale: 1.2;
 }
 
 @media (max-width: 1200px) {
