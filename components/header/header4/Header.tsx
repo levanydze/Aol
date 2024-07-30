@@ -48,9 +48,32 @@ export default function Header3() {
                     <Link href="./">Portfolio</Link>
                   </li>
                 )}
-                <li className="font1">
-                  <Link href="/photography">Photography</Link>
-                </li>
+                {pathname === "/photography" ? (
+                  <>
+                    <div className={styles.desctopPortfolio}>
+                      <ScrollingButton
+                        value="Photography"
+                        viewHeight={true}
+                        className="font1"
+                        button={false}
+                        pixels={30}
+                      />
+                    </div>
+                    <div className={styles.mobilePortfolio}>
+                      <ScrollingButton
+                        value="Photography"
+                        viewHeight={true}
+                        pixels={300}
+                        className="font1"
+                        button={false}
+                      />
+                    </div>
+                  </>
+                ) : (
+                  <li className="font1">
+                    <Link href="/photography">Photography</Link>
+                  </li>
+                )}
               </ul>
             </nav>
             {/* <button className="button button-bold">Get In Touch</button> */}

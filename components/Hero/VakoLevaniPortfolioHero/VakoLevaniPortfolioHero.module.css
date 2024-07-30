@@ -1,5 +1,6 @@
 .wrapper {
   max-height: 1300px;
+  min-height: 600px;
   height: 100vh;
   position: relative;
 }

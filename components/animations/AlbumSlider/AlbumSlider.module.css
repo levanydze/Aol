@@ -1,5 +1,4 @@
 .mainWrapper {
-  /* padding: 40px 0; */
   user-select: none;
 }
 
@@ -27,16 +26,14 @@
   align-items: center;
 }
 .mainWrapper > div > ::after {
-  /* color: var(--overlayLight); */
   transition: all 0.2s;
   padding: 20px;
-  color: var(--overlayLight);
+  color: var(--gray3);
+  opacity: 0.5;
 }
 .mainWrapper > div > :hover::after {
-  color: var(--gray2);
+  color: var(--gray5);
 }
-/* .mainWrapper > div > ::after:hover {
-} */
 
 .mainImage {
   display: flex;
@@ -58,7 +55,6 @@
 }
 
 .navImagesWrapper img {
-  /* max-height: 100px; */
   object-fit: cover;
   width: 100px;
   height: 50px;

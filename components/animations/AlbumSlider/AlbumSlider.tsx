@@ -55,7 +55,7 @@ export default function AlbumSlider({ images, title }: AlbumProps) {
             onSwiper={setThumbsSwiper}
             loop={true}
             spaceBetween={12}
-            slidesPerView={7}
+            slidesPerView={7.5}
             freeMode={true}
             watchSlidesProgress={true}
             modules={[FreeMode, Navigation, Thumbs]}
