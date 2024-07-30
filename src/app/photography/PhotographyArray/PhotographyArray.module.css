@@ -1,13 +1,12 @@
 .wrapper {
-  margin-bottom: 300px;
 }
 .mainWrap {
   display: flex;
   justify-content: space-between;
-  padding: 50px 0;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  padding: 50px 0;
 }
 .sliderWrapper {
   overflow: hidden;
@@ -16,32 +15,26 @@
   object-fit: contain;
   width: 100%;
   max-width: 100%;
-  margin: 20px 0;
+  /* margin: 20px 0; */
 }
 
 .textWrap {
-  max-width: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 20px;
-}
-.textWrap p {
-  color: var(--gray5);
-  max-width: 400px;
-  padding-left: 2px;
 }
 .textWrap h3 {
   color: var(--gray5);
   font-weight: 900;
+  opacity: 0.6;
 }
 
-.textWrap a {
-  margin-top: 40px;
-  color: var(--gray9);
-}
-.textWrap svg {
-  font-size: 20px;
+.textWrap span {
+  color: var(--gray3);
+  margin-top: 20px;
+  letter-spacing: 20px;
+  opacity: 0.5;
+  width: 100%;
 }
 
 @media (max-width: 800px) {
@@ -49,14 +42,6 @@
   }
   .sliderWrapper {
     margin-bottom: 100px;
-  }
-  .textWrap a {
-    margin: 50px auto;
-  }
-  .textWrap svg {
-    transform: rotate(90deg);
-    margin-right: -10px;
-    margin-left: 10px;
   }
   .textWrap {
     margin: 0 auto;

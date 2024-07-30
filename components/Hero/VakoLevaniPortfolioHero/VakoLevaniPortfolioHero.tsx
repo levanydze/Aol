@@ -1,16 +1,16 @@
 import Image from "next/image";
 import styles from "./VakoLevaniPortfolioHero.module.css";
-import imagesJson from "../../../json/images.json";
+
 import ScrollingButton from "../../../components/miniComponents/scrollingButton/ScrollingButton";
 
 interface heroProps {
   h1: string;
   h2: string;
   buttonValue: string;
+  image: string;
 }
 
-export default function Chachaweb({ h1, h2, buttonValue }: heroProps) {
-  const { mePngCartoon } = imagesJson;
+export default function Chachaweb({ image, h1, h2, buttonValue }: heroProps) {
   return (
     <section className="section noPadding section-pink">
       <div className="container ">
@@ -28,7 +28,7 @@ export default function Chachaweb({ h1, h2, buttonValue }: heroProps) {
             </div>
             <div>
               <Image
-                src={mePngCartoon}
+                src={image}
                 alt="levani levanidze cartoon"
                 width={1000}
                 height={1500}

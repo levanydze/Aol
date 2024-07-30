@@ -44,13 +44,7 @@ export default function AlbumSlider({ images, title }: AlbumProps) {
             {images.map((image, index) => (
               <SwiperSlide key={index} className={styles.someMainDiv2}>
                 <div className={styles.mainImage}>
-                  <Image
-                    src={image}
-                    alt={title}
-                    width={1300}
-                    height={1000}
-                    className="block h-full w-full object-cover"
-                  />
+                  <Image src={image} alt={title} width={1300} height={1000} />
                 </div>
               </SwiperSlide>
             ))}
@@ -61,7 +55,7 @@ export default function AlbumSlider({ images, title }: AlbumProps) {
             onSwiper={setThumbsSwiper}
             loop={true}
             spaceBetween={12}
-            slidesPerView={6}
+            slidesPerView={7}
             freeMode={true}
             watchSlidesProgress={true}
             modules={[FreeMode, Navigation, Thumbs]}

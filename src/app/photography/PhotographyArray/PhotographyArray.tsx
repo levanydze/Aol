@@ -31,11 +31,11 @@ export default async function PhotographyArray({
 
   return (
     <div className={styles.wrapper}>
-      {data.slice(0, arrayNumber).map((project) => (
-        <div className={styles.mainWrap}>
+      {data.slice(0, arrayNumber).map((project, index) => (
+        <div className={styles.mainWrap} key={index}>
           <div className={styles.textWrap}>
-            <p className="title2">{project.location}</p>
             <h3 className="title4 font1">{project.title}</h3>
+            <span className="text1">© Levani Levanidze 2024</span>
           </div>
           <div className={styles.sliderWrapper}>
             <AlbumSlider title="" images={project.images} />
