@@ -25,7 +25,7 @@ body {
   --blue: #1300ff;
   --dusk: #6600ff;
   --purple: #9900ff;
-  --pink: #ff0066;
+  --pink: rgb(255, 234, 228);
   --red: #fe0222;
   --orange: #fd7702;
   --yellow: #ffbb00;

@@ -21,12 +21,13 @@
 .textWrap p {
   color: var(--gray5);
   max-width: 400px;
-  padding-left: 2px;
 }
 .textWrap h3 {
   color: var(--gray5);
   width: 350px;
   font-weight: 900;
+  line-height: 45px;
+  padding: 10px 0 20px 0;
 }
 
 .textWrap a {
@@ -35,6 +36,28 @@
 }
 .textWrap svg {
   font-size: 20px;
+}
+.date {
+  color: var(--gray4);
+  margin-bottom: 20px;
+  margin-left: 3px;
+  letter-spacing: 4px;
+  font-size: 12px;
+}
+.spans {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+.spans span {
+  margin-right: 8px;
+  margin-left: 3px;
+  font-size: 10px;
+  padding: 2px 7px;
+  background-color: var(--pink);
+  font-weight: 700;
+  color: var(--gray5);
+  margin-bottom: 10px;
 }
 
 @media (max-width: 800px) {
@@ -70,5 +93,12 @@
 @media (max-width: 600px) {
   .mainWrap img {
     margin-left: -20px;
+  }
+}
+
+@media (max-width: 450px) {
+  .textWrap h3 {
+    font-size: 35px;
+    width: auto;
   }
 }

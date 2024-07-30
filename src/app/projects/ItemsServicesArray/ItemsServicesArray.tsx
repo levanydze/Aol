@@ -37,8 +37,16 @@ export default async function ItemsServicesArray({
           <div className="container">
             <div className={styles.mainWrap}>
               <div className={styles.textWrap}>
+                <span className={styles.date}>{project.date}</span>
                 <p className="title2">{project.location}</p>
                 <h3 className="title8 font1">{project.title}</h3>
+                <div className={styles.spans}>
+                  {project.deisgn && <span>Web Design</span>}
+                  {project.webflow && <span>Webflow</span>}
+                  {project.nextjs && <span>Next Js</span>}
+                  {project.photo && <span>Photography</span>}
+                  {project.copy && <span>Copyright</span>}
+                </div>
                 <Link className="button" href={`/projects/${project.id}`}>
                   See This Project
                   <HiOutlineArrowNarrowRight />
