@@ -1,6 +1,6 @@
 .contactWrapper {
   display: flex;
-  padding: 30px 50px;
+  /* padding: 30px 50px; */
   justify-content: space-evenly;
   gap: 2%;
 }
