@@ -1,6 +1,6 @@
 .contactWrapper {
   display: flex;
-  /* padding: 30px 50px; */
+  padding: 30px 50px;
   justify-content: space-evenly;
   gap: 2%;
 }
@@ -105,6 +105,9 @@
   }
 }
 @media (max-width: 720px) {
+  .contactWrapper {
+    padding: 0;
+  }
   .form div {
     flex-direction: column;
     gap: 5px;
