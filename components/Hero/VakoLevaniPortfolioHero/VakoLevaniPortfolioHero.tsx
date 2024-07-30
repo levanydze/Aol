@@ -24,6 +24,7 @@ export default function Chachaweb({ image, h1, h2, buttonValue }: heroProps) {
                 viewHeight={true}
                 className="button"
                 button={true}
+                pixels={20}
               />
             </div>
             <div>
