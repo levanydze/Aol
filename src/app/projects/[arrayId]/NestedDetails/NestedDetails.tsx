@@ -18,7 +18,6 @@ export default async function NestedDetails({ arrayId }: MenuDetailsProps) {
       <div className={styles.mainWrapper}>
         <h1 className="title9">{data.location}</h1>
         <div className={styles.textWrapper}>
-          {/* <h2 className="title3">{data.title}</h2> */}
           <p className="text1">{data.text1}</p>
           <p className="text1">{data.text2}</p>
         </div>
