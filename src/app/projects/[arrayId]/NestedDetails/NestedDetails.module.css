@@ -31,3 +31,15 @@
   max-width: 100%;
   object-fit: cover;
 }
+
+@media (max-width: 730px) {
+  .mainWrapper {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 420px) {
+  .mainWrapper {
+    margin-top: 70px;
+  }
+}

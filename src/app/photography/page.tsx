@@ -18,7 +18,7 @@ export default function Photography() {
         image={mePngCamera}
         h1="Explore My Photography"
         h2="I have a passion for mountains and photography. In 2017, I won the Golden Camera award by FEP for my landscape work. As a perfectionist, I ensure every detail is perfect. Building websites with stunning photos suits my dedication to excellence."
-        buttonValue="See photos below"
+        buttonValue="See Photos B2elow"
       />
       <PhotographyArray title="ss" span="ss2" arrayNumber={99} />
       <VakoLevaniWhatIDo />

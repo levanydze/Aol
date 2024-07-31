@@ -30,7 +30,7 @@ export default function ArrayNestedPage({ params }: MenuDetailsPageProps) {
     <>
       <section className="section">
         <div className="container">
-          <div className={`fadeOut ${styles.pageDetailWrapper}`}>
+          <div className="fadeOut">
             <div className={styles.lowerDiv}></div>
             <NestedDetails arrayId={params.arrayId} />
           </div>

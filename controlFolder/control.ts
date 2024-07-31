@@ -38,7 +38,7 @@ export const socialMediaLinks = [
 import { NavItemProps } from "../components/header/header3/Navigation";
 export const navItems: NavItemProps[] = [
   { title: "HOME", url: "/", homePage: true },
-  // { title: "Menu", url: "/menu" },
+  { title: "Photography", url: "/photography" },
   // { title: "SERVICES", url: "/services" },
   // { title: "WEBSITES", url: "/websites" },
   // { title: "CONTACT", url: "/contact" },

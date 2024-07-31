@@ -1,22 +1,21 @@
 import styles from "./NestedDetails.module.css";
-import Link from "next/link";
-// import AlbumSlider from "../../../../../../components/Sliders/AlbumSlider/AlbumSlider";
-
 //mapping and routes
 import { findDataById } from "../../DataFetch";
 import { ProjectProps } from "../../ItemsServicesArray/ItemsServicesArray";
 import Image from "next/image";
-interface MenuDetailsProps {
+import Link from "next/link";
+
+interface projectProps {
   arrayId: string;
 }
 
-export default async function NestedDetails({ arrayId }: MenuDetailsProps) {
+export default async function NestedDetails({ arrayId }: projectProps) {
   const data: ProjectProps = await findDataById(arrayId);
 
   return (
     <>
       <div className={styles.mainWrapper}>
-        <h1 className="title9">{data.location}</h1>
+        <h1 className="title5">{data.location}</h1>
         <div className={styles.textWrapper}>
           <p className="text1">{data.text1}</p>
           <p className="text1">{data.text2}</p>
