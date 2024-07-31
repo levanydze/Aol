@@ -40,9 +40,9 @@ export const generateMetadata = async ({ params }: MenuDetailsPageProps) => {
 export default async function Image({ params }: MenuDetailsPageProps) {
   try {
     // Fetch the font
-    const interSemiBold = await fetch(
+    const nunitoSans = await fetch(
       new URL(
-        "https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap",
+        "/fonts/Nunito_Sans/NunitoSans-VariableFont_wght.ttf",
         import.meta.url
       )
     ).then((res) => res.arrayBuffer());
@@ -71,7 +71,7 @@ export default async function Image({ params }: MenuDetailsPageProps) {
         fonts: [
           {
             name: "Nunito Sans",
-            data: interSemiBold,
+            data: nunitoSans,
             style: "normal",
             weight: 400,
           },
