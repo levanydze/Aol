@@ -42,7 +42,7 @@ export default async function Image({ params }: MenuDetailsPageProps) {
     // Fetch the font
     const interSemiBold = await fetch(
       new URL(
-        "/fonts/Nunito_Sans/../../../../public/fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC,opsz,wdth,wght",
+        "/fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf",
         import.meta.url
       )
     ).then((res) => res.arrayBuffer());
@@ -70,7 +70,7 @@ export default async function Image({ params }: MenuDetailsPageProps) {
         ...size,
         fonts: [
           {
-            name: "Inter",
+            name: "Nunito Sans",
             data: interSemiBold,
             style: "normal",
             weight: 400,
@@ -102,5 +102,3 @@ export default async function Image({ params }: MenuDetailsPageProps) {
     );
   }
 }
-
-//
