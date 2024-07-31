@@ -42,7 +42,7 @@ export default async function Image({ params }: MenuDetailsPageProps) {
     // Fetch the font
     const interSemiBold = await fetch(
       new URL(
-        "../../../../public/fonts/Nunito_Sans/../../../../public/fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC,opsz,wdth,wght",
+        "/fonts/Nunito_Sans/../../../../public/fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC,opsz,wdth,wght",
         import.meta.url
       )
     ).then((res) => res.arrayBuffer());
