@@ -37,7 +37,7 @@ export default function Header3() {
                       <ScrollingButton
                         value="Portfolio"
                         viewHeight={true}
-                        pixels={300}
+                        pixels={400}
                         className="font1"
                         button={false}
                       />
@@ -63,7 +63,7 @@ export default function Header3() {
                       <ScrollingButton
                         value="Photography"
                         viewHeight={true}
-                        pixels={300}
+                        pixels={400}
                         className="font1"
                         button={false}
                       />
