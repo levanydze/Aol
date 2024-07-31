@@ -41,7 +41,10 @@ export default async function Image({ params }: MenuDetailsPageProps) {
   try {
     // Fetch the font
     const interSemiBold = await fetch(
-      new URL("/fonts/Inter-SemiBold.ttf", import.meta.url)
+      new URL(
+        "../../../../public/fonts/Nunito_Sans/../../../../public/fonts/Nunito_Sans/NunitoSans-VariableFont_YTLC,opsz,wdth,wght",
+        import.meta.url
+      )
     ).then((res) => res.arrayBuffer());
 
     // Fetch dynamic data
