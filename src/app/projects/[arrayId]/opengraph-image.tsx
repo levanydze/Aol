@@ -40,11 +40,8 @@ export const generateMetadata = async ({ params }: MenuDetailsPageProps) => {
 export default async function Image({ params }: MenuDetailsPageProps) {
   try {
     // Fetch the font
-    const nunitoSans = await fetch(
-      new URL(
-        "/fonts/Nunito_Sans/NunitoSans-VariableFont_wght.ttf",
-        import.meta.url
-      )
+    const robotoBlack = await fetch(
+      new URL("/fonts/Roboto/Roboto-Black.ttf", import.meta.url)
     ).then((res) => res.arrayBuffer());
 
     // Fetch dynamic data
@@ -70,8 +67,8 @@ export default async function Image({ params }: MenuDetailsPageProps) {
         ...size,
         fonts: [
           {
-            name: "Nunito Sans",
-            data: nunitoSans,
+            name: "Roboto",
+            data: robotoBlack,
             style: "normal",
             weight: 400,
           },
