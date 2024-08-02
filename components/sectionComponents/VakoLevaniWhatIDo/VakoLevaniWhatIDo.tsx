@@ -11,7 +11,7 @@ export default function VakoLevaniWhatIDo() {
       image: designIcon2,
       subtitle: "Design",
       description:
-        "Be it website or mobile app design, my clients get the product that has the best combination of outstanding user experience and visual aesthetics.",
+        "I create modern, stylish websites that look great and are easy to use on any device. I use a strategy that ensures I understand exactly what you want, so the final design meets your expectations.",
       link: "",
       linkText: "",
     },
@@ -19,7 +19,7 @@ export default function VakoLevaniWhatIDo() {
       image: developmentIcon,
       subtitle: "Website Development",
       description:
-        "By designing in Webflow and NextJs, I am able to deliver a fully responsive website with a clean, semantic code. This lets my clients cut huge costs on development.",
+        "Using Webflow or Next.js, I create fully responsive websites that work perfectly on any device, including mobile phones. My approach ensures your website is clean, fast, and provides a great user experience for all visitors.",
       link: "",
       linkText: "",
     },
