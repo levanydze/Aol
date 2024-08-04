@@ -1,5 +1,5 @@
 //metadata
-export const mainTitle = "LevaniDze Web Designer"; //metadadta Title
+export const mainTitle = "LevaniDze Web Designer & Photographer"; //metadadta Title
 export const companyDescription =
   "We specialize in creating functional, SEO-friendly websites for a wide range of businesses, including restaurants, construction companies, and more. Our expert team also offers professional photography services to enhance your online presence and meet your unique business needs."; //metadata title
 
