@@ -1,7 +1,7 @@
 //metadata
 export const mainTitle = "LevaniDze Web Designer"; //metadadta Title
 export const companyDescription =
-  "out main target is restaurant and construction companies but we also create web sites for various category companies "; //metadata title
+  "We specialize in creating functional, SEO-friendly websites for a wide range of businesses, including restaurants, construction companies, and more. Our expert team also offers professional photography services to enhance your online presence and meet your unique business needs."; //metadata title
 
 //info
 export const companyName = "LevaniDze";
