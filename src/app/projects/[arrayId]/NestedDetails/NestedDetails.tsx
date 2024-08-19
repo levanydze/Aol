@@ -4,6 +4,7 @@ import { findDataById } from "../../DataFetch";
 import { ProjectProps } from "../../ItemsServicesArray/ItemsServicesArray";
 import Image from "next/image";
 import Link from "next/link";
+import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 
 interface projectProps {
   arrayId: string;
@@ -17,9 +18,28 @@ export default async function NestedDetails({ arrayId }: projectProps) {
       <div className={styles.mainWrapper}>
         <h1 className="title5">{data.location}</h1>
         <div className={styles.textWrapper}>
-          <p className="text1">{data.text1}</p>
-          <p className="text1">{data.text2}</p>
+          <div>
+            <h3 className="title3">Project Overview</h3>
+            <p className="text1">{data.text1}</p>
+          </div>
+          <div>
+            <h3 className="title3">Outcome & Impact</h3>
+            <p className="text1">{data.text2}</p>
+          </div>
         </div>
+        <div className={styles.liveButtonWrapper}>
+          {data.link && (
+            <Link
+              className={`button ${styles.liveButton}`}
+              href={data.link}
+              target="_blank"
+            >
+              Preview in browser
+              <HiOutlineArrowNarrowRight />
+            </Link>
+          )}
+        </div>
+
         <div className={styles.imageWrapper}>
           <Image
             width={1000}

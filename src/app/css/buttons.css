@@ -2,7 +2,7 @@
   border: 2px solid var(--gray5);
   background-color: var(--white);
   width: max-content;
-  border-radius: 20px;
+  border-radius: 8px;
   display: flex;
   align-items: center;
   gap: 5px;
