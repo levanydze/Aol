@@ -19,11 +19,11 @@ export default async function NestedDetails({ arrayId }: projectProps) {
         <h1 className="title5">{data.location}</h1>
         <div className={styles.textWrapper}>
           <div>
-            <h3 className="title3">Project Overview</h3>
+            <h3 className="title3 font2">Project Overview</h3>
             <p className="text1">{data.text1}</p>
           </div>
           <div>
-            <h3 className="title3">Innovative Solutions</h3>
+            <h3 className="title3 font2">Innovative Solutions</h3>
             <p className="text1">{data.text2}</p>
           </div>
         </div>
