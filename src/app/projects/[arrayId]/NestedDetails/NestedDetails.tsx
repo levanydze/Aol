@@ -23,7 +23,7 @@ export default async function NestedDetails({ arrayId }: projectProps) {
             <p className="text1">{data.text1}</p>
           </div>
           <div>
-            <h3 className="title3">Outcome & Impact</h3>
+            <h3 className="title3">Innovative Solutions</h3>
             <p className="text1">{data.text2}</p>
           </div>
         </div>
