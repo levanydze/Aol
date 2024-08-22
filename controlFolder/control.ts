@@ -1,8 +1,7 @@
 //metadata
 export const mainTitle = "LevaniDze Web Designer & Photographer"; //metadadta Title
 export const companyDescription =
-  "I create functional, SEO-optimized websites for businesses, including restaurants, gardening services, travel agencies, and more. Along with web development, I offer professional photography to elevate your online presence and perfectly align with your business needs."; //metadata title
-
+  "I create modern & functional, SEO-optimized custom-designed websites for businesses, including restaurants, gardening services, travel agencies, and more. Along with web development, I offer professional photography to elevate your online presence and perfectly align with your business needs."; //metadata title
 //info
 export const companyName = "LevaniDze";
 export const companyFullName = "LevaniDze";
