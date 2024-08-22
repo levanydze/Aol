@@ -23,7 +23,6 @@ export const sectionOrder = [
   // "drinks",
   // "special",
 ];
-
 export const socialMediaLinks = [
   {
     facebook: "https://www.facebook.com/levanidze/",
