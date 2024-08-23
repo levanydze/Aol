@@ -2,10 +2,12 @@ import NotFoundComponent from "../../components/x-error-loading-notFound/notFoun
 
 export default function error() {
   return (
-    <>
-      <NotFoundComponent />
-      <h6 className="title1 auto color1"></h6>
-    </>
+    <section className="section">
+      <div className="container">
+        <NotFoundComponent />
+        <h6 className="title1 auto color1"></h6>
+      </div>
+    </section>
   );
 }
 

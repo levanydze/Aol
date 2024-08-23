@@ -5,15 +5,15 @@ import Link from "next/link";
 
 export default function ErrorDiv() {
   return (
-    <div className="container2">
-      <section>
+    <section className="section">
+      <div className="container">
         <div className={styles.errorWrapper}>
           <h6 className="title6  ">Error Occured</h6>
           <Link href="https://levanidze.com" className="button">
             Back to home
           </Link>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   );
 }
