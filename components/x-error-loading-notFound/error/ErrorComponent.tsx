@@ -9,7 +9,7 @@ export default function ErrorDiv() {
       <section>
         <div className={styles.errorWrapper}>
           <h6 className="title6  ">Error Occured</h6>
-          <Link href="/" className="button">
+          <Link href="https://levanidze.com" className="button">
             Back to home
           </Link>
         </div>
